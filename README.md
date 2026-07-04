@@ -24,6 +24,7 @@ Projeto de entrega de blockchain da fase 2. Este projeto necessitará entregar:
 >       idade > 12.
 >       CPF cadastrado uma única vez.
 
+
 ## Iniciando e Executando o projeto.
 (1) Para inicializar o projeto basta instalar as dependências:
 ```npm install```
@@ -42,3 +43,4 @@ Caso não exista o "serve" ele perguntará se deseja instalar ele.
 
 ### Observações:
 O projeto utiliza o Ganache, rodando em suas configurações padrões, neste caso ``HTTP://127.0.0.1:7545`` e network id ``5777``.
+Pós execução do Deploy vai gerar um contract Address, colocar ele no [[frontend/app.js]] na primeira linha!
